@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586676263115.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D964B16B",
+    "lastKnownWriteTime" : 1516834539472,
+    "last_content_update" : 1586676263115,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "6B851890",
+        "caption" : "TurnoutRates",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=TurnoutRates&cache_key=6B851890",
+        "displayedObservations" : "51",
+        "environment" : "",
+        "expression" : "TurnoutRates",
+        "object" : "TurnoutRates",
+        "preview" : "0",
+        "totalObservations" : "51",
+        "variables" : "7"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 17,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

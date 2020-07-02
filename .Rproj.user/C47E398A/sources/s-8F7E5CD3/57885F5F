@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586516775742.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "57885F5F",
+    "lastKnownWriteTime" : 1586527196,
+    "last_content_update" : 1586527196611,
+    "path" : "~/timeseries_plot/time_seriesplot.R",
+    "project_path" : "time_seriesplot.R",
+    "properties" : {
+        "cursorPosition" : "23,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

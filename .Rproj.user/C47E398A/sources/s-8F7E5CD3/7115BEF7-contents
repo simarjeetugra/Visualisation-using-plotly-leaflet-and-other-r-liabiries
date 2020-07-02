@@ -1,0 +1,53 @@
+library(FinCal)
+library(FinancialMath)
+library(pracma)
+## calculating present value
+pv.simple(r=0.10,n=1,fv=100)
+## calculating future value
+fv.simple(r=0.10,n=10,pv=100000)
+## future value of annuity
+## Ordinary annuity
+## at the end of the year
+fv.annuity(r=0.10,n=4,pmt=1000,type=0)
+fv.annuity(r=0.10,n=4,pmt=1000,type=1)
+## present value of annuity
+pv.annuity(r=0.10,n=10,pmt=1000)
+## annity calculation for loan
+pmt(r=0.10,n=30,pv=500000,fv=0)
+pmt(r=0.12,n=)
+## compounding frequency
+## effective interst rate
+## 10% interst rate compounded monthly
+## ear=((1+r/m)**m)-1
+ear=((1+.10/12)**12)-1
+((1+.12/12)**12)-1
+0.126825/12
+## how compunding effect annual paymemts of annuity
+## in above example assume that interst is paid monthly
+## pmt is monthly paid
+((1+.10/12)**12)-1
+10.47131/12
+pmt(r=0.1047131,n=30,pv=500000,fv=0,type=0)
+## annuity due
+pmt(r=0.010,n=60,pv=34000,fv=0,type=1)
+## perpetuity and stock valuations
+## annuity for an indefinite period
+pv.perpetuity(r=0.10,g=0.05,pmt = 2)
+pv.perpetuity(r=0.15,g=0.05,pmt=1)
+## test
+pv.simple(r=0.06,n=5,fv=40000)
+3000*(1+.10)**3
+5000*(1+.10)**2
+7000*(1+.10)
+3993+6050+7700+9000
+pv.annuity(r=0.07,n=4,pmt=40000)
+(0.10*-15)+(0.20*-5)+(0.15*5)+(0.30*15)
+pv.perpetuity(r=0.10,pmt=2,g=0.03)
+options(scipen=999)
+nthroot(2,10)
+## bond valuation
+(1000/744.09)**.20
+1000/744.09
+nthroot(1.343923,20)-1
+nthroot((1000/744.09),20)
+500/100

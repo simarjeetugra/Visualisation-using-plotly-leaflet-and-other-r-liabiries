@@ -1,0 +1,14 @@
+library(leaflet)
+library(dplyr)
+library(tidyr)
+map1<-leaflet() %>% 
+  addProviderTiles("Esri") %>% 
+  addMarkers(lng = jin_uni$Longitude, lat = jin_uni$Latitude)
+map_circle<-map1%>%
+  clearMarkers()%>%
+  addCircleMarkers(data=jin_uni,radius = jin_uni$Articles,color = "red",opacity = 1)
+map_circle
+map_circle%>%
+  addTiles("OpenStreetMap")
+map_circle
+dput(head(jin_uni) ) 

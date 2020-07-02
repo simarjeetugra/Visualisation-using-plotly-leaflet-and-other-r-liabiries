@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586742700468.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A37A3EB",
+    "lastKnownWriteTime" : 1586702372,
+    "last_content_update" : 1586742700468,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "BF4F9387",
+        "caption" : "maine",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=maine&cache_key=BF4F9387",
+        "displayedObservations" : 191,
+        "environment" : "",
+        "expression" : "maine",
+        "object" : "maine",
+        "preview" : 0,
+        "totalObservations" : 191,
+        "variables" : 4
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 22,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

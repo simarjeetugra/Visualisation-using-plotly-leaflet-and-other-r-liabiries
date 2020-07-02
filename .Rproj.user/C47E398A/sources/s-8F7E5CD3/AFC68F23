@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586518487574.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AFC68F23",
+    "lastKnownWriteTime" : 1586516789,
+    "last_content_update" : 1586518487574,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "E99C7BD6",
+        "caption" : "bse_comp",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=bse_comp&cache_key=E99C7BD6",
+        "displayedObservations" : "214",
+        "environment" : "",
+        "expression" : "bse_comp",
+        "object" : "bse_comp",
+        "preview" : "0",
+        "totalObservations" : "214",
+        "variables" : "380"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

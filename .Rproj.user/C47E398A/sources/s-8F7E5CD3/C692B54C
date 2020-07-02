@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586872875526.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C692B54C",
+    "lastKnownWriteTime" : 1586957511,
+    "last_content_update" : 1586957512002,
+    "path" : "~/timeseries_plot/data_manipulation_dplyr.R",
+    "project_path" : "data_manipulation_dplyr.R",
+    "properties" : {
+        "cursorPosition" : "121,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled3"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 35,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586653662545.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1577753F",
+    "lastKnownWriteTime" : 1586676560,
+    "last_content_update" : 1586676560990,
+    "path" : "~/timeseries_plot/plotly.R",
+    "project_path" : "plotly.R",
+    "properties" : {
+        "cursorPosition" : "97,35",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 12,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

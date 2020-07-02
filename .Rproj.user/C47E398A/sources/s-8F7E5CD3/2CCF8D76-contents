@@ -1,0 +1,67 @@
+## interactive plot
+library(gapminder)
+library(rbokeh)
+library(ggplot2)
+library(dplyr)
+## basic time series line plot in rbokeh
+data_rwanda<-gapminder%>%
+  filter(country=="Rwanda")
+figure(data=data_rwanda)%>%
+  ly_lines(x=year,y=lifeExp)
+## scatter plot with rbokeh
+figure(data=data_rwanda)%>%
+  ly_points(x=lifeExp,y=pop)
+figure()%>%
+  ly_points(x=lifeExp,y=pop,data=data_rwanda)
+## multilayer plots (line +scatterplot)
+figure(data=data_rwanda)%>%
+  ly_lines(x=year,y=pop)%>%
+  ly_points(x=year,y=pop)
+data_ind_chn<-gapminder%>%
+  filter(country==c("China","India"))
+figure(data=data_ind_chn,legend_location = "top_left")%>%
+  ly_lines(x=year,y=gdpPercap,color=country)%>%
+  ly_points(x=year,y=gdpPercap,color = country)
+## plot and mapped attributes
+## first colour argument
+dat_1982<-gapminder%>%
+  filter(year==1982)
+fig_1982<-figure(data=dat_1982,title = "life expentency vs gdp",legend_location = "bottom_right")%>%
+  ly_points(x=gdpPercap,y=lifeExp,color = continent,alpha = 1)
+## setting manual colour
+fig_1982%>%
+  set_palette(discrete_color = pal_color(c("red","green","pink","blue","black")))
+## you can also set colour by setting codes
+## taking about size
+library(fivethirtyeight)
+data_1980_2013<-bechdel%>%
+  filter(between(year,1980,2013))
+data_1980_2013<-data_1980_2013%>%
+  mutate(roi_total=intgross_2013/budget_2013)
+figure(data=data_1980_2013)%>%
+  ly_points(x=log(budget_2013),y=log(roi_total))
+## you see overlapping is there we will change size
+figure(data=data_1980_2013)%>%
+  ly_points(x=log(budget_2013),y=log(roi_total),size = 5,line_alpha=0,fill_alpha=0.3)
+## changing the width of the line
+figure(data=data_ind_chn,legend_location = "top_left")%>%
+  ly_lines(x=year,y=gdpPercap,color=country,width = 3)%>%
+  ly_points(x=year,y=gdpPercap,color = country)
+## now make the chart interactive with hoover options
+fig_1982<-figure(data=dat_1982,title = "life expentency vs gdp",legend_location = "bottom_right")%>%
+  ly_points(x=gdpPercap,y=lifeExp,color = continent,hoover=c(country,lifeExp))
+fig_1982
+## figure options like theme setting, xlab,ylab,title
+fig_1982<-figure(data=dat_1982,title = "life expentency vs gdp",legend_location = "bottom_right",theme = bk_ggplot_theme())%>%
+  ly_points(x=gdpPercap,y=lifeExp,color = continent,alpha = 1)
+fig_1982
+## converting data format from wide to long and from long to wide
+## convert from wide to long
+## we can use spread and gather function
+## more robekh layers
+## adding regression line to scatter plot
+py_scatt<-figure(data=data_1980_2013)%>%
+  ly_points(x=log(budget_2013),y=log(roi_total),size = 5,line_alpha=0,fill_alpha=0.3)
+lin_reg<-lm(log(budget_2013)~log(roi_total),data=data_1980_2013)
+py_scatt%>%
+  ly_abline(lin_reg)

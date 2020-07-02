@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586701385679.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CAA8181B",
+    "lastKnownWriteTime" : 1604582046632,
+    "last_content_update" : 1586701385679,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "30A08322",
+        "caption" : "ipeds",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=ipeds&cache_key=30A08322",
+        "displayedObservations" : "7521",
+        "environment" : "",
+        "expression" : "ipeds",
+        "object" : "ipeds",
+        "preview" : "0",
+        "totalObservations" : "7521",
+        "variables" : "5"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 21,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

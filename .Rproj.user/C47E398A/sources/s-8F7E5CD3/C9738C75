@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586743338680.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C9738C75",
+    "lastKnownWriteTime" : 7957695011165139568,
+    "last_content_update" : 1586743338680,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A7CC62D4",
+        "caption" : "Florida",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Florida&cache_key=A7CC62D4",
+        "displayedObservations" : "419",
+        "environment" : "",
+        "expression" : "Florida",
+        "object" : "Florida",
+        "preview" : "0",
+        "totalObservations" : "419",
+        "variables" : "4"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 23,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

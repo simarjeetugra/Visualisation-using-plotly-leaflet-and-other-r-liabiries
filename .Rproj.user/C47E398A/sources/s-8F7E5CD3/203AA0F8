@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586687584867.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "203AA0F8",
+    "lastKnownWriteTime" : 1592055604,
+    "last_content_update" : 1592055604,
+    "path" : "~/timeseries_plot/leaflet.R",
+    "project_path" : "leaflet.R",
+    "properties" : {
+        "cursorPosition" : "121,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 18,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

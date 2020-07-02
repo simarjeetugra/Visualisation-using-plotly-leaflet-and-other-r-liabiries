@@ -1,0 +1,24 @@
+## googlevis
+library(googleVis)
+library(lubridate)
+library(dplyr)
+library(purrr)
+library(plotly)
+COVID_19_geographic_disbtribution_worldwide$dateRep<-ymd(COVID_19_geographic_disbtribution_worldwide$dateRep)
+## making time series plot of india
+COVID_19_geographic_disbtribution_worldwide%>%
+  filter(countriesAndTerritories==c("India"))%>%
+  plot_ly(x=~dateRep,y=~cases)%>%
+  add_bars()
+## making time series plot from 1 march 2020 onwards
+test<-COVID_19_geographic_disbtribution_worldwide%>%
+  filter(countriesAndTerritories==c("India"))%>%
+  gvisLineChart(xvar="dateRep",yvar="cases")
+plot(test)
+
+COVID_19_geographic_disbtribution_worldwide%>%
+  filter(dateRep>"2020-03-01"& dateRep<"2020-04-14")%>%
+  plot_ly(x=~dateRep,y=~cases)%>%
+  add_lines()
+
+  

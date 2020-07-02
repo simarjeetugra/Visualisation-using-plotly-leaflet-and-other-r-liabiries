@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586860933194.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E51F92C4",
+    "lastKnownWriteTime" : 15,
+    "last_content_update" : 1586860933194,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "DD9B4A3E",
+        "caption" : "COVID_19_geographic_disbtribution_worldwide",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=COVID_19_geographic_disbtribution_worldwide&cache_key=DD9B4A3E",
+        "displayedObservations" : "10742",
+        "environment" : "",
+        "expression" : "COVID_19_geographic_disbtribution_worldwide",
+        "object" : "COVID_19_geographic_disbtribution_worldwide",
+        "preview" : "0",
+        "totalObservations" : "10742",
+        "variables" : "10"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 34,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586518607804.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E463334",
+    "lastKnownWriteTime" : 3544385899999883877,
+    "last_content_update" : 1586518607804,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "DD592F13",
+        "caption" : "bseret2001",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=bseret2001&cache_key=DD592F13",
+        "displayedObservations" : "226",
+        "environment" : "",
+        "expression" : "bseret2001",
+        "object" : "bseret2001",
+        "preview" : "0",
+        "totalObservations" : "226",
+        "variables" : "545"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

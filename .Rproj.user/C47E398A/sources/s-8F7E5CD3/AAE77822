@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590587029479.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AAE77822",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1590587029479,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2A8E563A",
+        "caption" : "gagan_loc",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=gagan_loc&cache_key=2A8E563A",
+        "displayedObservations" : 417,
+        "environment" : "",
+        "expression" : "gagan_loc",
+        "object" : "gagan_loc",
+        "preview" : 0,
+        "totalObservations" : 417,
+        "variables" : 3
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 42,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

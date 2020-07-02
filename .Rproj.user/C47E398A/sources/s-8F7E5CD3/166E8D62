@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586588873182.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "166E8D62",
+    "lastKnownWriteTime" : 7810775982622995056,
+    "last_content_update" : 1586588873182,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "54921634",
+        "caption" : "data_rwanda",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=data_rwanda&cache_key=54921634",
+        "displayedObservations" : "12",
+        "environment" : "",
+        "expression" : "data_rwanda",
+        "object" : "data_rwanda",
+        "preview" : "0",
+        "totalObservations" : "12",
+        "variables" : "6"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

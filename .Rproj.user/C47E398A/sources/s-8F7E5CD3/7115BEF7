@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593532043578.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "34678352",
+    "id" : "7115BEF7",
+    "lastKnownWriteTime" : 1593532033,
+    "last_content_update" : 1593532033,
+    "path" : "~/time value of money.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 44,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
